@@ -1,0 +1,27 @@
+.header {
+  height: 100%;
+  background-color: #354628;
+  box-shadow: 0 4px 10px black;
+  color: white;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header__logout {
+  width: 24px;
+  height: 24px;
+}
+
+.header__logout svg {
+  fill: white;
+}
+
+.header__logout:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.edit-dragon-form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .edit-dragon-form {
+    padding: 10px;
+  }
+}
